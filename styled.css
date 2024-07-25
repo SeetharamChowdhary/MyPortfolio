@@ -1,0 +1,160 @@
+.hotel-card {
+    align-items: flex-start;
+    background-color: #ffffff;
+    border: 1px solid;
+    border-color: #eaeaea;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+    padding: 15px 13px;
+    position: relative;
+  }
+  
+  .hotel-card .lake-louise-image {
+    align-self: stretch;
+    height: 200px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .hotel-card .stay-details {
+    align-items: flex-start;
+    align-self: stretch;
+    display: flex;
+    flex: 0 0 auto;
+    gap: 11px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .hotel-card .stay-details-rows {
+    align-items: flex-start;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    flex-grow: 1;
+    gap: 6px;
+    position: relative;
+  }
+  
+  .hotel-card .text-wrapper {
+    align-self: stretch;
+    color: #8e8e94;
+    font-family: "Roboto-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.32px;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+  }
+  
+  .hotel-card .div {
+    align-self: stretch;
+    color: #2f2f2f;
+    font-family: "Roboto-Bold", Helvetica;
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: 0.88px;
+    line-height: normal;
+    position: relative;
+  }
+  
+  .hotel-card .text-wrapper-2 {
+    align-self: stretch;
+    color: #2f2f2f;
+    font-family: "Roboto-Regular", Helvetica;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0.72px;
+    line-height: normal;
+    position: relative;
+  }
+  
+  .hotel-card .video-instance {
+    height: 25px !important;
+    position: relative !important;
+    width: 25px !important;
+  }
+  
+  .hotel-card .rating {
+    align-self: stretch;
+    height: 19px;
+    margin-right: -2px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .hotel-card .text-wrapper-3 {
+    color: #1262af;
+    font-family: "Roboto-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    left: 54px;
+    letter-spacing: 0.64px;
+    line-height: normal;
+    position: absolute;
+    top: 0;
+    width: 216px;
+  }
+  
+  .hotel-card .group {
+    height: 19px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 46px;
+  }
+  
+  .hotel-card .text-wrapper-4 {
+    color: #2f2f2f;
+    font-family: "Roboto-Medium", Helvetica;
+    font-size: 16px;
+    font-weight: 500;
+    left: 20px;
+    letter-spacing: 0.64px;
+    line-height: normal;
+    position: absolute;
+    top: 0;
+    white-space: nowrap;
+  }
+  
+  .hotel-card .vector {
+    height: 17px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 17px;
+  }
+  
+  .hotel-card .more-details-button {
+    align-items: center;
+    align-self: stretch;
+    border: 1px solid;
+    border-color: #ccdceb;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    height: 46px;
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+  }
+  
+  .hotel-card .button {
+    all: unset;
+    box-sizing: border-box;
+    color: #1262af;
+    font-family: var(--components-button-large-font-family);
+    font-size: var(--components-button-large-font-size);
+    font-style: var(--components-button-large-font-style);
+    font-weight: var(--components-button-large-font-weight);
+    letter-spacing: var(--components-button-large-letter-spacing);
+    line-height: var(--components-button-large-line-height);
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
